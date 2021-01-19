@@ -26,7 +26,7 @@
 
         if($result)
         {
-            header("Location: ");
+            header("Location: https://donatemate-cat300.herokuapp.com/volunteer-dash.php");
         }
         else
         {
