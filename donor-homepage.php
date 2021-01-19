@@ -25,7 +25,7 @@
       <div class="banner">
         <h1>DonateMate</h1>
          <p>Welcome Back, Donor!</p>
-         <a href="signIn.php"><button>Donate Now</button></a>
+         <a href="charity-list-v2.php"><button>Donate Now</button></a>
       </div>
 
 
@@ -46,7 +46,7 @@
         <a href="donor-profile-page.php" class="menu-link" data-content="My Profile">My Account</a>
       </li>
     <li class="menu-item">
-      <a href="" class="menu-link" data-content="Log Out">Log Out</a>
+      <a href="index.php" class="menu-link" data-content="Log Out">Log Out</a>
     </li>
 
     <!--QR SCANNER-->
