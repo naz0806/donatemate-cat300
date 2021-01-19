@@ -30,7 +30,7 @@ require_once('connection.php');
         <div class="sidebar-menu">
             <ul>
                 <li>
-                    <a href="index.php">
+                    <a href="donor-homepage.php">
                         <span class="ti-home"></span>
                         <span>Home</span>
                     </a>
