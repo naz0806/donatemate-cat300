@@ -6,7 +6,7 @@ body{
 .header
 {
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(css/together4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/together4.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -20,7 +20,7 @@ body{
 .header2
 {
     height:30vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(css/sky1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/sky1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
