@@ -44,7 +44,7 @@
     </li>
     <li class="menu-item">
       <div class="dropdown">
-        <a href="signIn.php" class="menu-link" id="dropbtn" data-content="Login">Login</a>
+        <a href="#" class="menu-link" id="dropbtn" data-content="Login">Login</a>
           <div class="dropdown-content">
             <a href="signIn.php">Donor</a>
             <a href="signIn.php">Charity Organization</a>
