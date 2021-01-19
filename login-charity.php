@@ -22,7 +22,7 @@ if(mysqli_num_rows($result) > 0)
 		$_SESSION['c_id'] = $d_id;
 		$_SESSION['c_email'] = $d_email;
 	}
-	header("Location: http://localhost/donatemate-cat300/donatemate/web/charity-homepage.php");
+	header("Location: https://donatemate-cat300.herokuapp.com/charity-homepage.php");
 }
 else
 {
