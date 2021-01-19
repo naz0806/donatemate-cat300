@@ -154,7 +154,7 @@ echo '<div class="modal-content">';
 echo '<span class="close">&times;</span>';
 echo '<div class="text-center">';
 // Attempt select query execution
-$sql = "SELECT  don_cat, don_quantity, don_date, don_time FROM latest_task limit 1";
+$sql = "SELECT  don_cat, don_quantity, don_date, don_time FROM donation limit 1";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
         echo "<table>";
