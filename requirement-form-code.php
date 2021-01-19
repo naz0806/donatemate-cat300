@@ -4,20 +4,14 @@
 require_once('connection.php');
 
     $don_category = $item_category = $quantity = $supplies = $description = '';
- 
-
-    $link = mysqli_connect('localhost', 'root', '', 'donatemate') or die($link);
-    if($mysqli->connect_error){
-        die('Connection Failed : '.$mysqli->connect_error);
-    }
     
     //if the register2 button is clicked
     if (isset($_POST['requirement'])) {
-        $don_category = mysqli_real_escape_string($link, $_POST['don_category']);
-        $item_category = mysqli_real_escape_string($link, $_POST['item_category']);
-        $quantity = mysqli_real_escape_string($link, $_POST['quantity']);
-        $supplies = mysqli_real_escape_string($link, $_POST['supplies']);
-        $description = mysqli_real_escape_string($link, $_POST['description']);
+        $don_category = mysqli_real_escape_string($link, $_POST['req_cat']);
+        $item_category = mysqli_real_escape_string($link, $_POST['req_item_cat']);
+        $quantity = mysqli_real_escape_string($link, $_POST['req_quantity']);
+        $supplies = mysqli_real_escape_string($link, $_POST['req_supplies']);
+        $description = mysqli_real_escape_string($link, $_POST['req_desc']);
         
     }
 
