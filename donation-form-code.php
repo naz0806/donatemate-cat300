@@ -21,21 +21,19 @@ require_once('connection.php');
        
     $sql = "INSERT INTO donation (don_cat, don_quantity, don_type, don_date, don_time, don_add_opt, don_add1, don_add2, don_city, don_postal)
             VALUES ('$category', '$quantity', '$don_type' ,'$date' ,'$time','$address','$line1','$line2','$city','$postal')";
- $sql1 = " INSERT INTO latest_task (don_cat, don_quantity,  don_date, don_time, don_add1, don_add2, don_city, don_postal)
-                  VALUES ('$category', '$quantity' ,'$date' ,'$time','$line1','$line2','$city','$postal')";
-     
-         $result1 = mysqli_query($link, $sql1);
+
+       
     $result = mysqli_query($link, $sql);
 
 
-    if($result &&  $result1)
+    if($result)
     {
         header("Location: https://donatemate-cat300.herokuapp.com/donor-dash-page.php");
     }
     else
     {
         echo "Error :".$sql;
-        echo "Error :".$sql1;
+       
     }
 
 
