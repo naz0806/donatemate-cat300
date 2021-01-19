@@ -27,7 +27,7 @@ require_once('connection.php');
     $result = mysqli_query($link, $sql);
     if($result)
     {
-        header("Location: ");
+        header("Location: https://donatemate-cat300.herokuapp.com/charity-dash-page.php");
     }
     else
     {
