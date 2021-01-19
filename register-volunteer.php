@@ -22,7 +22,7 @@ require_once('connection.php');
 
         if($result)
         {
-            header("Location: http://localhost/donatemate-cat300/donatemate/web/signUpInVolunteer.php);
+            header("Location: https://donatemate-cat300.herokuapp.com/login-volunteer.php");
         }
         else
         {
