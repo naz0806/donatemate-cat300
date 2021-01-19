@@ -7,11 +7,11 @@ require_once('connection.php');
     
     //if the register2 button is clicked
     if (isset($_POST['requirement'])) {
-        $don_category = mysqli_real_escape_string($link, $_POST['req_cat']);
-        $item_category = mysqli_real_escape_string($link, $_POST['req_item_cat']);
-        $quantity = mysqli_real_escape_string($link, $_POST['req_quantity']);
-        $supplies = mysqli_real_escape_string($link, $_POST['req_supplies']);
-        $description = mysqli_real_escape_string($link, $_POST['req_desc']);
+        $don_category = mysqli_real_escape_string($link, $_POST['don_category']);
+        $item_category = mysqli_real_escape_string($link, $_POST['item_category']);
+        $quantity = mysqli_real_escape_string($link, $_POST['quantity']);
+        $supplies = mysqli_real_escape_string($link, $_POST['supplies']);
+        $description = mysqli_real_escape_string($link, $_POST['description']);
         
     }
 
