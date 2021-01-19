@@ -24,7 +24,7 @@
         <div class="sidebar-menu">
             <ul>
                 <li>
-                    <a href="index.php">
+                    <a href="charity-homepage.php">
                         <span class="ti-home"></span>
                         <span>Home</span>
                     </a>
@@ -44,7 +44,7 @@
                 <li>
                     <a href="requirement-form.php">
                         <span class="ti-package"></span>
-                        <span>Edit Requirement</span>
+                        <span>Add Requirement</span>
                     </a>
                 </li>
                 
