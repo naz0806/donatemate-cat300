@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+.container {
+    margin-top: 35px;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    background: #cccccc;
+    background-image: url('../images/together1.jpg');
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#form {
+    background-color: rgba(0,0,0,0.6);
+    margin-bottom: 5rem;
+    color: #cccccc;
+}
+
+
+.btn-info {
+    transition: 0.5s ease-in-out;
+    background:#4470ad;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 3rem;
+    width: 83%;
+}
+
+.input-category {
+    width: 100%;
+    padding: 6.5px 10px;
+    display: inline-block;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.input-category2 {
+    width: 100%;
+    padding: 6.5px 10px;
+    display: inline-block;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.input-category3 {
+    width: 100%;
+    padding: 6.5px 10px;
+    display: inline-block;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.desc_text{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+
+input:hover,
+input:focus
+{
+    box-shadow: 0 0 8px 0 lightblue;
+}
+
+input[type=radio] {
+    padding: 2rem, 2rem;
+}
+
+.row #radio-label {
+    margin-left: 2rem;
+}
+
+.radio-inline label {
+    margin-left: 7rem;
+}
+
+#delivery, #address {
+    display: none;
+} 
