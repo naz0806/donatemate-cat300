@@ -50,7 +50,7 @@
                         Rumah Kasih Harmoni takes care of orphans in the vicinity of the town who are brought to the orphanage facility. The orphanage provide shelter, feeding, healthcare and education at no cost to children. </p>
                       <p>Target: Dry Foods, Clothes</p><br>
                       <a href="donation-form.php"><button class="card-btn">Donate Now</button></a>
-                      <a href="../homepage/test.html"><button class="card-btn">More Info</button></a>                 
+                              
                     </div>
                   </div>
                 </div>
