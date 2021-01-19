@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
-    <link href="volunteer-profile.css" rel="stylesheet" type="text/css">
+    <link href="css/volunteer-profile.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
 
@@ -99,15 +99,15 @@
                   <div class="col-lg-3 order-lg-2">
                     <div class="card-profile-image">
                       <a href="#">
-                        <img src="../images/profile-pic.png" class="rounded-circle" style="width:200px">
+                        <img src="images/profile-pic.png" class="rounded-circle" style="width:200px">
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
                   <div class="d-flex justify-content-between">
-                    <a href="donation-page.html" class="btn btn-sm btn-info mr-4">Donate</a>
-                    <a href="reward-page.html" class="btn btn-sm btn-default float-right">Rewards</a>
+                    <a href="donation-page.php" class="btn btn-sm btn-info mr-4">Donate</a>
+                    <a href="reward-page.php" class="btn btn-sm btn-default float-right">Rewards</a>
                   </div>
                 </div>
                 <div class="card-body pt-0 pt-md-4">
@@ -134,7 +134,7 @@
                     </div>
                     <hr class="my-4">
                     <p>Donation make me feels like I am sharing my happiness with others. It makes me feel better.</p>
-                    <a href="donor-dash-page.html">My achievement</a>
+                    <a href="donor-dash-page.php">My achievement</a>
                   </div>
                 </div>
               </div>
