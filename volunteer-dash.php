@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <title>Volunteer Dashboard</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-    <link rel="stylesheet" href="volunteer-dashboard.css">
+    <link rel="stylesheet" href="css/volunteer-dashboard.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="sidebar-menu">
             <ul>
                 <li>
-                    <a href="../homepage/index.html">
+                    <a href="index.php">
                         <span class="ti-home"></span>
                         <span>Home</span>
                     </a>
@@ -34,13 +34,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="reward-page.html">
+                    <a href="reward-page-vol.php">
                         <span class="ti-gift"></span>
                         <span>My Rewards</span>
                     </a>
                 </li>
                 <li>
-                    <a href="volunteer-profile.html">
+                    <a href="volunteer-profile.php">
                         <span class="ti-user"></span>
                         <span>My Account</span>
                     </a>
