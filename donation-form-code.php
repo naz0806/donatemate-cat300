@@ -25,7 +25,7 @@ require_once('connection.php');
 
     if($result)
     {
-        header("Location: ");
+        header("Location: https://donatemate-cat300.herokuapp.com/donor-dash-page.php");
     }
     else
     {
