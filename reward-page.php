@@ -92,7 +92,7 @@
                     <div class="col-5 col-sm-3 col-lg-2 mx-3 my-3">
                         <div class="card single-item-rew">
                             <div class="img-container-rew">
-                                <img src="../images/gift-box.png" alt=""
+                                <img src="images/gift-box.png" alt=""
                                 class="card-img-top reward-img">
                                 <button class="btn-reward px-3 py-2">Redeem</button>
                             </div>
@@ -110,7 +110,7 @@
                     <div class="col-5 col-sm-3 col-lg-2 mx-3 my-3">
                         <div class="card single-item-rew">
                             <div class="img-container-rew">
-                                <img src="../images/gift-box.png" alt=""
+                                <img src="images/gift-box.png" alt=""
                                 class="card-img-top reward-img">
                                 <button class="btn-reward px-3 py-2">Redeem</button>
                             </div>
