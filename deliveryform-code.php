@@ -13,9 +13,7 @@
         $email = mysqli_real_escape_string($link, $_POST['email']);
 
         
-        $sql = "DELETE FROM latest_task
-        LIMIT 1";
-        mysqli_query($link, $sql);
+     
 
       
     }
