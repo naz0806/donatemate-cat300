@@ -19,7 +19,6 @@
     </div>
     <ul class="nav-links">
         <li><a href="index.php">Home</a></li>
-        <li><a href="signIn.php">Login</a></li>
         <li><a href="search-engine.php">Search Page</a></li>
     </ul>
     </nav>
