@@ -228,7 +228,7 @@ if($result = mysqli_query($link, $sql)){
   $(function() {
     $("#generate").click(function() {
       $(".qr-code").attr("src", "https://chart.googleapis.com/chart?cht=qr&chl=" + 
-      htmlEncode("http://localhost/web/Qrscanner/deliveryform/deliveryform.php") + "&chs=160x160&chld=L|0");
+      htmlEncode("https://donatemate-cat300.herokuapp.com/deliveryform.php") + "&chs=160x160&chld=L|0");
     });
   });
   
