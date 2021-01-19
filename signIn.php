@@ -27,10 +27,10 @@
 		
 		<form method="POST" action="login-donor.php">
 			
-            <h2 style="text-align:left;">Sign In Account</h2>
+            <h2 style="text-align:left;">Sign In Donor Account</h2>
             
-            <input type="email" name="u_email" required placeholder="Email" />
-            <input type="password"  id="u_pass1" name="u_pass1"  required placeholder="Password"  />
+            <input type="email" name="d_email" required placeholder="Email" />
+            <input type="password"  id="d_pass1" name="d_pass1"  required placeholder="Password"  />
 			<input type="checkbox" id="box" onclick="showpass()" >
 			<label for="box" id="label-text">Show Password</label><br>
             <button type="submit" name="login">Sign In</button>
