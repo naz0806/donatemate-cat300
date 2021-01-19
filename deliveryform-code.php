@@ -20,7 +20,8 @@
        
         $sql = "INSERT INTO delivery (role_type, del_name, del_contact, del_email)
                 VALUES ('$role', '$name', '$contact' ,'$email')";
-        mysqli_query($link, $sql);
+        
+ $result = mysqli_query($link, $sql);
 
         if($result)
         {
