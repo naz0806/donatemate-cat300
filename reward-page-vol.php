@@ -25,7 +25,7 @@
         <div class="sidebar-menu">
             <ul>
                 <li>
-                    <a href="index.php">
+                    <a href="volunteer-homepage.php">
                         <span class="ti-home"></span>
                         <span>Home</span>
                     </a>
