@@ -154,12 +154,12 @@ echo '<div class="modal-content">';
 echo '<span class="close">&times;</span>';
 echo '<div class="text-center">';
 // Attempt select query execution
-$sql = "SELECT  don_cat, don_quantity, don_date, don_time FROM donation limit 1";
+$sql = "SELECT  don_id, don_cat, don_quantity, don_date, don_time FROM donation limit 1";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
         echo "<table>";
             echo "<tr>";
-            
+                echo "<th>Donation ID</th>";
                 echo "<th>Donation Type</th>";
                 echo "<th>Donation Quantity</th>";
                 echo "<th>Date</th>";
@@ -169,7 +169,7 @@ if($result = mysqli_query($link, $sql)){
             echo "</tr>";
         while($row = mysqli_fetch_array($result)){
             echo "<tr>";
-              
+                echo "<td>" . $row['don_id'] . "</td>";
                 echo "<td>" . $row['don_cat'] . "</td>";
                 echo "<td>" . $row['don_quantity'] . "</td>";
                 echo "<td>" . $row['don_date'] . "</td>";
