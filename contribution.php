@@ -120,7 +120,7 @@ require_once('connection.php');
 <?php
  // Attempt select query execution
       
-       $sql="SELECT don_ID, don_cat, don_quantity, don_date, don_time, don_add1, don_add2, don_city, don_postal FROM latest_task";
+       $sql="SELECT don_ID, don_cat, don_quantity, don_date, don_time, don_add1, don_add2, don_city, don_postal FROM donation";
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
         echo "<table>";
